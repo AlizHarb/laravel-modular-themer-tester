@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/alizharb/laravel-themer/main/resources/schemas/theme.schema.json",
+    "name": "default",
+    "slug": "default",
+    "description": "A professional Laravel theme.",
+    "version": "1.0.0",
+    "author": null,
+    "tags": [
+        "modern",
+        "responsive"
+    ],
+    "asset_path": "themes/default",
+    "parent": null,
+    "screenshots": [
+        "resources/assets/screenshots/screenshot-light.png",
+        "resources/assets/screenshots/screenshot-dark.png"
+    ],
+    "removable": true,
+    "disableable": true
+}

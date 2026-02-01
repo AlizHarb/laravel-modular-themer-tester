@@ -1,0 +1,13 @@
+{
+    "name": "@modules/auth",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Asset management for Auth module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "vite": "^6.0.0"
+    }
+}

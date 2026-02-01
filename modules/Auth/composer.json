@@ -1,0 +1,24 @@
+{
+    "name": "alizharb/auth",
+    "description": "Auth Module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Harb",
+            "email": "harbzali@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Auth\\": "app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Auth\\Providers\\AuthServiceProvider"
+            ]
+        }
+    }
+}

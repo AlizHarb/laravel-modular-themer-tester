@@ -1,0 +1,14 @@
+{
+    "name": "@themes/default",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Asset management for default theme",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "vite": "^6.0.0"
+    }
+}

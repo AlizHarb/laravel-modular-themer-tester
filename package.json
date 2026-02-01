@@ -1,0 +1,29 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "themes:dev": "npm run dev --workspaces",
+        "themes:build": "npm run build --workspaces"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.1.18",
+        "autoprefixer": "^10.4.24",
+        "axios": "^1.13.4",
+        "concurrently": "^9.2.1",
+        "laravel-vite-plugin": "^2.1",
+        "tailwindcss": "^4.1.18",
+        "vite": "^7.3.1"
+    },
+    "optionalDependencies": {
+        "@rollup/rollup-linux-x64-gnu": "4.57.1",
+        "@tailwindcss/oxide-linux-x64-gnu": "^4.1.18",
+        "lightningcss-linux-x64-gnu": "^1.31.1"
+    },
+    "workspaces": [
+        "modules/*",
+        "/Applications/ServBay/www/project/themes/*"
+    ]
+}
